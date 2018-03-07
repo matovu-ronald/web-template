@@ -1,0 +1,28 @@
+/* green color #8ed3cc; */
+
+/* Navigation */
+.navigation {
+  background-color: #8ed3cc;
+}
+
+nav.main-nav {
+  background: url(../img/border_horizontal.png),
+              url(../img/border_horizontal.png);
+  background-repeat: repeat-x;
+  background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-item {
+  transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-item:hover {
+  background-color: #39a69b;
+  border-radius: 10px;
+}
+
+nav.main-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+}
